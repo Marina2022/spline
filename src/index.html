@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body class="bg-[#121316]">
+<header>
+  <div class="app-container">
+
+    <!--    Introducing Spline Mirror-->
+    <a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap">
+      <div class="max-md:w-full flex gap-3 justify-center items-center">
+        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.875 10.625c0-1.875 0-5 8.125-5s8.125 3.125 8.125 5-1.25 3.75-3.125 3.75-3.125-1.875-5-1.875-3.125 1.875-5 1.875-3.125-1.875-3.125-3.75Z"
+            stroke="#2589FF" stroke-width="1.25" stroke-linecap="round"></path>
+        </svg>
+        <div class="text-80 text-[14px]">Introducing Spline Mirror</div>
+        <svg class="md:hidden" viewBox="0 0 16 16" fill="none" width="16" height="16" style="opacity: 0.6;">
+          <path d="M13.5 2.5V8m0-5.5H8m5.5 0-11 11" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+      <div class="max-md:w-full flex gap-3 justify-center items-center">
+        <div class="text-40 text-[12px]">A new way to experience your scenes on visionOS.</div>
+        <svg class="md:block hidden" viewBox="0 0 16 16" fill="none" width="16" height="16" style="opacity: 0.6;">
+          <path d="M13.5 2.5V8m0-5.5H8m5.5 0-11 11" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+    </a>
+
+    <!--    header-menu-->
+    <div class="main-header mt-[30px]">
+      <nav>
+        <ul class="header-menu flex items-center gap-2 font-medium text-40 justify-center">
+          <li class="p-[10px]">
+            <a href="/">
+              <img src="assets/header/logo.png" alt="logo" width="32" height="32">
+            </a>
+          </li>
+          <li class="p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="/">
+              Features
+            </a>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center active-menu-item" href="/">
+              <span class="">
+              iOS
+            </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul class="hidden absolute popup w-[150px] top-[40px] rounded-xl bg-[rgba(255,255,255,.05)] p-2">
+              <li class="bg-[#2d2e31] rounded-lg p-2 mb-[3px]"><a href="#">3D Embeds</a></li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">App
+                Generation</a></li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100"><a href="#">Spline Mirror</a></li>
+            </ul>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+              <span class="text-[#a57efa] flex gap-1">
+              AI
+                <svg class="ai" width="14" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path
+                  d="M5.316 3.375a.075.075 0 0 1 .133 0L6.8 5.925a.075.075 0 0 0 .03.032l2.551 1.352a.075.075 0 0 1 0 .132l-2.55 1.352a.075.075 0 0 0-.031.032l-1.352 2.55a.075.075 0 0 1-.133 0l-1.352-2.55a.075.075 0 0 0-.031-.032l-2.55-1.352a.075.075 0 0 1 0-.132l2.55-1.352a.075.075 0 0 0 .03-.032l1.353-2.55Z"
+                  fill="#a57efa" fill-opacity="0.1" stroke="#a57efa"></path><path
+                  d="m12.507 3.25-1.5-1.875-1.5 1.875 1.5 1.875 1.5-1.875Z" fill="#a57efa" fill-opacity="0.1"
+                  stroke="#a57efa" stroke-linecap="round" stroke-linejoin="round"></path><path
+                  d="M11.007 8.875v3m-1.5-1.5h3" stroke="#a57efa" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul hidden class="absolute popup w-[208px] top-[40px] rounded-xl bg-[rgba(255,255,255,.05)] p-2">
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>AI Prompt</span>
+                  <span class="text-40 border  text-[10px] border border-white/[.2] rounded-full py-[2px] px-2">WAITLIST</span></a>
+              </li>
+
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>AI Style Transfer </span>
+                  <span class="text-[9px] text-[#a57efa] border border-[#a57efa] rounded-full py-[2px] px-2 ">NEW</span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+              <span class="">
+              Resources
+            </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul class="hidden absolute popup w-[120px] top-[40px] rounded-xl bg-[rgba(255,255,255,.05)] p-2">
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">Download</a>
+              </li>
+              <li class="group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>
+                  Viewer
+                    </span>
+                  <span class="rotate-180">
+                    <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                            stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">Tutorials</a>
+              </li>
+              <li class="group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>
+                    Docs
+                  </span>
+                  <span class="rotate-180">
+                    <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                            stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+              <span class="">
+              Community
+            </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- Community popup -->
+            <div
+              class="hidden absolute popup w-[540px] top-[40px] right-[-130px] rounded-xl bg-[rgba(255,255,255,.05)] p-2">
+              <div class="flex">
+                <div class="pl-5 pr-10 my-3 border-r border-[rgba(255,255,255,.05)]">
+                  <h3 class="mb-2">Spline Community</h3>
+                  <p class="mb-3 text-sm text-40">Discover 3D Designs #MadeInSpline</p>
+                  <img class="rounded-lg" src="assets/header/community.png" alt="community">
+                </div>
+
+                <ul class="my-4 grow pr-5">
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                      <span>
+                        Spline Community
+                      </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                      <span>
+                        Discord
+                      </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                      <span>
+                        YouTube
+                      </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          𝕏/Twitter
+                        </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                      <span>
+                        Tiktok
+                      </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                      <span>
+                        Instagram
+                      </span>
+                      <span class="rotate-180">
+                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!--          / -->
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="/">
+              Customers
+            </a>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="/">
+              Examples
+            </a>
+          </li>
+
+          <li class="p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="/">
+              Pricing
+            </a>
+          </li>
+
+          <li class="py-[8px] px-[14px] hover:text-100 transition-colors duration-300 bg-[rgba(255,255,255,.1)] rounded-3xl border border-[rgba(255,255,255,.2)]">
+            <a class="" href="/">
+              Log in
+            </a>
+          </li>
+
+          <li class="p-[10px] text-white font-semibold bg-[rgba(255,255,255,.2)] rounded-full py-2 px-4">
+            <a class="" href="/">
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+  </div>
+</header>
+<main>
+  <div class="app-container"></div>
+</main>
+
+<footer>
+  <div class="app-container"></div>
+</footer>
+
+
+<br>
+
+<a href="pricing.html">pricing</a>
+</div>
+
+<script src="sctipt.js" type="module"></script>
+</body>
+
+</html>

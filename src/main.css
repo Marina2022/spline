@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  .app-container {
+    @apply lg:max-w-[1080px] max-xl:px-4 w-full m-auto
+  }
+}
+
+@layer components {
+  .text-40 {
+    @apply text-white text-opacity-[.4]
+  }
+  .text-80 {
+    @apply text-white text-opacity-[.8]
+  }
+
+  .text-100 {
+    @apply text-white text-opacity-[1]
+  }
+
+  .active-menu-item {
+    @apply text-white text-opacity-[1]
+   }
+}
+
+body {
+  font-family: 'Spline Sans';
+}
+
+
+.main-header li:hover {
+  svg {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+
+  svg.ai {
+    transform: rotate(0deg);
+  }
+
+  .popup {
+    display: block;
+    transition: opacity .5s ease;
+  }
+
+
+
+}

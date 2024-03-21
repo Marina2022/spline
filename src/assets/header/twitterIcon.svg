@@ -1,0 +1,12 @@
+<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#x-twitter_svg__a)">
+    <path
+      d="M14.905 10.47 22.35 2h-1.764L14.12 9.353 8.956 2H3l7.809 11.12L3 22h1.764l6.827-7.766L17.044 22H23M5.4 3.302h2.71l12.476 17.46h-2.71"
+      fill="currentColor"></path>
+  </g>
+  <defs>
+    <clipPath id="x-twitter_svg__a">
+      <path fill="currentColor" transform="translate(3 2)" d="M0 0h20v20H0z"></path>
+    </clipPath>
+  </defs>
+</svg>
