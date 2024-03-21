@@ -1,10 +1,15 @@
 module.exports = {
   content: [
-    'src/index.html'
+    'src/*.html'
   ],
   dark: 'media',
   theme: {
-    extend: {},
+
+    extend: {
+      screens: {
+        'lg': '1080px',
+      }
+    },
   },
   plugins: [],
 }

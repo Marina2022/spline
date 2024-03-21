@@ -16,6 +16,7 @@
   .text-40 {
     @apply text-white text-opacity-[.4]
   }
+
   .text-80 {
     @apply text-white text-opacity-[.8]
   }
@@ -26,7 +27,7 @@
 
   .active-menu-item {
     @apply text-white text-opacity-[1]
-   }
+  }
 }
 
 body {
@@ -34,7 +35,7 @@ body {
 }
 
 
-.main-header li:hover {
+.main-menu li:hover {
   svg {
     transform: rotate(180deg);
     opacity: 1;
@@ -48,7 +49,24 @@ body {
     display: block;
     transition: opacity .5s ease;
   }
+}
+
+  .main-menu-scrolled {
+    background: #1d1e20;
+
+  }
 
 
+.get-started-btn-scrolled {
+  transition: all .5s ease-in-out;
+  background: #248aff;
+}
 
+#mobile-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+#mobile-menu {
+  height: calc(100vh - 145px);
+  overflow: auto;
 }
