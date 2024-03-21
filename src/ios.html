@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body class="bg-[#121316]">
+
+
+<!--    Introducing Spline Mirror-->
+<a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap">
+  <div class="max-md:w-full flex gap-3 justify-center items-center">
+    <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M1.875 10.625c0-1.875 0-5 8.125-5s8.125 3.125 8.125 5-1.25 3.75-3.125 3.75-3.125-1.875-5-1.875-3.125 1.875-5 1.875-3.125-1.875-3.125-3.75Z"
+        stroke="#2589FF" stroke-width="1.25" stroke-linecap="round"></path>
+    </svg>
+    <div class="text-80 text-[14px]">Introducing Spline Mirror</div>
+    <svg class="md:hidden" viewBox="0 0 16 16" fill="none" width="16" height="16" style="opacity: 0.6;">
+      <path d="M13.5 2.5V8m0-5.5H8m5.5 0-11 11" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </div>
+  <div class="max-md:w-full flex gap-3 justify-center items-center">
+    <div class="text-40 text-[12px]">A new way to experience your scenes on visionOS.</div>
+    <svg class="md:block hidden" viewBox="0 0 16 16" fill="none" width="16" height="16" style="opacity: 0.6;">
+      <path d="M13.5 2.5V8m0-5.5H8m5.5 0-11 11" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </div>
+</a>
+
+<header id="header" class="sticky top-[30px] w-full xl:w-[1080px] m-auto rounded-full relative z-10">
+  <div class="app-container">
+    <!--    header-menu-->
+    <div class="main-menu mt-[30px] bg-[#121316] rounded-full z-50">
+      <nav>
+        <ul class="header-menu flex items-center justify-between gap-2 font-medium text-40 justify-center ">
+          <li class="py-[10px] px-[8px]">
+            <a href="/">
+              <img src="assets/header/logo.png" alt="logo" width="32" height="32">
+            </a>
+          </li>
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="/">
+              Features
+            </a>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center active-menu-item">
+                <span class="">
+                iOS
+              </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul class="bg-[#202124] hidden absolute popup w-[150px] top-[40px] rounded-xl  p-2">
+              <li class="bg-[#2d2e31] rounded-lg p-2 mb-[3px]"><a href="ios.html">3D Embeds</a></li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">App
+                Generation</a></li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100"><a href="#">Spline Mirror</a></li>
+            </ul>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+                <span class="text-[#a57efa] flex gap-1">
+                AI
+                  <svg class="ai" width="14" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path
+                    d="M5.316 3.375a.075.075 0 0 1 .133 0L6.8 5.925a.075.075 0 0 0 .03.032l2.551 1.352a.075.075 0 0 1 0 .132l-2.55 1.352a.075.075 0 0 0-.031.032l-1.352 2.55a.075.075 0 0 1-.133 0l-1.352-2.55a.075.075 0 0 0-.031-.032l-2.55-1.352a.075.075 0 0 1 0-.132l2.55-1.352a.075.075 0 0 0 .03-.032l1.353-2.55Z"
+                    fill="#a57efa" fill-opacity="0.1" stroke="#a57efa"></path><path
+                    d="m12.507 3.25-1.5-1.875-1.5 1.875 1.5 1.875 1.5-1.875Z" fill="#a57efa" fill-opacity="0.1"
+                    stroke="#a57efa" stroke-linecap="round" stroke-linejoin="round"></path><path
+                    d="M11.007 8.875v3m-1.5-1.5h3" stroke="#a57efa" stroke-linecap="round"
+                    stroke-linejoin="round"></path></svg>
+              </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul hidden class="bg-[#202124] absolute popup w-[208px] top-[40px] rounded-xl p-2">
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>AI Prompt</span>
+                  <span
+                    class="text-40 border  text-[10px] border border-white/[.2] rounded-full py-[2px] px-2">WAITLIST</span></a>
+              </li>
+
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                  <span>AI Style Transfer </span>
+                  <span class="text-[9px] text-[#a57efa] border border-[#a57efa] rounded-full py-[2px] px-2 ">NEW</span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+                <span class="">
+                Resources
+              </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- popup -->
+            <ul class="bg-[#202124] hidden absolute popup w-[120px] top-[40px] rounded-xl p-2">
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">Download</a>
+              </li>
+              <li class="group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                    <span>
+                    Viewer
+                      </span>
+                  <span class="rotate-180">
+                      <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                    </span>
+                </a>
+              </li>
+              <li class="hover:bg-[#2d2e31] rounded-lg p-2 mb-[3px] text-40 hover:text-100"><a href="#">Tutorials</a>
+              </li>
+              <li class="group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100">
+                <a class="flex justify-between items-center" href="#">
+                    <span>
+                      Docs
+                    </span>
+                  <span class="rotate-180">
+                      <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                    </span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300 relative">
+            <button class="flex gap-2 items-center" href="/">
+                <span class="">
+                Community
+              </span>
+              <svg class="opacity-[.4]" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.941 6.5-3 3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+
+            <!-- Community popup -->
+            <div
+              class="bg-[#202124] hidden absolute popup w-[540px] top-[40px] right-[-130px] rounded-xl p-2">
+              <div class="flex">
+                <div class="pl-5 pr-10 my-3 border-r border-[rgba(255,255,255,.05)]">
+                  <h3 class="mb-2">Spline Community</h3>
+                  <p class="mb-3 text-sm text-40">Discover 3D Designs #MadeInSpline</p>
+
+                  <div class="inline-block overflow-hidden rounded-lg">
+                    <img class=" hover:scale-[1.05] transition-all duration-500 " src="assets/header/community.png" alt="community">
+                  </div>
+                </div>
+
+                <ul class="my-4 grow pr-5">
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Spline Community
+                        </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Discord
+                        </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          YouTube
+                        </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                          <span>
+                            𝕏/Twitter
+                          </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Tiktok
+                        </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="ml-7 group hover:bg-[#2d2e31] rounded-lg p-2 text-40 hover:text-100 mb-[4px]">
+                    <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Instagram
+                        </span>
+                      <span class="rotate-180">
+                          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:stroke-white" d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                                  stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="customers.html">
+              Customers
+            </a>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="examples.html">
+              Examples
+            </a>
+          </li>
+
+          <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300">
+            <a class="" href="pricing">
+              Pricing
+            </a>
+          </li>
+
+          <li
+            class="max-lg:hidden py-[8px] px-[14px] hover:text-100 transition-colors duration-300 bg-[rgba(255,255,255,.1)] rounded-3xl border border-[rgba(255,255,255,.2)]">
+            <a class="" href="login">
+              Log&nbsp;in
+            </a>
+          </li>
+          <li id="get-started-btn"
+              class="max-lg:hidden transition duration-500 p-[10px] text-white font-semibold bg-[rgba(255,255,255,.2)] rounded-full py-2 px-4">
+            <a href="/">
+              Get&nbsp;Started
+            </a>
+          </li>
+
+          <!--          mobile menu-->
+
+          <button class="lg:hidden opacity-[.6]" id="mobile-menu-btn">
+            <svg class="w-[20px] h-[20px]" viewBox="0 0 16 16" fill="none" width="16" height="16"
+                 aria-label="Open nav menu">
+              <path d="M1.5 7.5h13m-13-5h13m-13 10h13" stroke="#fff" stroke-linecap="round"></path>
+            </svg>
+          </button>
+
+          <ul id="mobile-menu"
+              class="hidden absolute top-[60px] right-[16px] w-[205px] bg-[rgba(31,32,35,.8)] backdrop-blur-xl rounded-2xl py-2 pl-2">
+            <li class="px-6 py-[10px]"><a href="#">Features</a></li>
+            <li class="px-6 py-[10px] text-white"><a href="ios.html">iOS</a></li>
+            <li class="px-6 py-[10px]"><a href="#">Spline Mirror</a></li>
+            <li class="px-6 py-[10px]"><a href="#">AI Prompt</a></li>
+            <li class="px-6 py-[10px]"><a href="#">AI Style Transfer</a></li>
+            <li class="px-6 py-[10px]"><a href="examples.html">Examples</a></li>
+            <li class="px-6 py-[10px]"><a href="pricing.html">Pricing</a></li>
+            <li class="px-6 py-[10px]"><a href="customers.html">Customers</a></li>
+            <li class="px-6 py-[10px]"><a href="#">Download</a></li>
+            <li class="px-6 py-[10px]"><a href="#">Spline Community</a></li>
+
+            <li class="pl-6 pr-[11px] py-[10px]">
+              <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Discord
+                        </span>
+                <span class="rotate-180">
+                      <svg class="rotate-180" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                  </span>
+              </a>
+            </li>
+
+            <li class="pl-6 pr-[11px] py-[10px]">
+              <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Utube
+                        </span>
+                <span class="rotate-180">
+                      <svg class="rotate-180" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                  </span>
+              </a>
+            </li>
+
+            <li class="pl-6 pr-[11px] py-[10px]">
+              <a class="flex justify-between items-center" href="#">
+                        <span>
+                          𝕏/Twitter
+                        </span>
+                <span class="rotate-180">
+                      <svg class="rotate-180" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                  </span>
+              </a>
+            </li>
+
+            <li class="pl-6 pr-[11px] py-[10px]"><a href="#">Tutorials</a></li>
+
+            <li class="pl-6 pr-[11px] py-[10px]">
+              <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Viewer
+                        </span>
+                <span class="rotate-180">
+                      <svg class="rotate-180" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                  </span>
+              </a>
+            </li>
+
+            <li class="pl-6 pr-[11px] py-[10px]">
+              <a class="flex justify-between items-center" href="#">
+                        <span>
+                          Docs
+                        </span>
+                <span class="rotate-180">
+                      <svg class="rotate-180" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 4.5-7 7m7-7v4.242M12 4.5H7.757"
+                              stroke="rgba(255,255,255,.4)" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                      </svg>
+                  </span>
+              </a>
+            </li>
+            <li
+              class="text-center m-auto w-[160px] h-[40px] mt-2 p-[10px] text-white font-semibold bg-[#248aff] rounded-full py-2 px-4 mb-4">
+              <a href="/">
+                Get&nbsp;Started
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="app-container">
+    <section class="">
+      <div class="text-center text-40 flex flex-col items-center mt-[80px] max-w-[650px] m-auto">
+        <svg class="mb-8" width="72" height="72" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="71" height="71" rx="15.5" fill="#fff" fill-opacity="0.01"></rect>
+          <rect x="0.5" y="0.5" width="71" height="71" rx="15.5" stroke="#5865F2"></rect>
+          <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22 26a2 2 0 0 1 2-2h22a2 2 0 0 1 2 2v1h-7a4 4 0 0 0-4 4v8h-7a1 1 0 1 0 0 2h7v3H24a2 2 0 0 1-2-2V26Z"
+                fill="#7581FF"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39 32a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V32Zm4.5 1a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1Zm.5 11a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2Z"
+                fill="#7581FF"></path>
+        </svg>
+        <h1 class="font-medium text-white mb-4 lg:text-[40px] text-[24px]">Design and export native 3D for iOS</h1>
+        <p class="text-[18px] lg:text-[24px] leading-9">A fully native Spline Metal renderer to help you bring <br
+          class="hidden lg:inline"> 3D to iOS, iPadOS, macOS and visionOS.</p>
+        <a
+          class="flex items-center justify-center gap-[10px] bg-[#5966f3] rounded-lg py-2 px-4 mt-[40px] text-white w-full md:w-[190px] h-[52px] mb-[90px]"
+          href="#">
+          <span class="font-medium"> Get Started</span>
+          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 8.5H3m11 0-3 3m3-3-3-3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="relative flex justify-center">
+        <img class="w-[910px] " src="assets/ios/1___next_static_media_sky-destiny.png" alt="sky-destiny">
+        <img class="hidden lg:block w-[307px] h-[632px] lg:absolute top-[80px] right-0"
+             src="assets/ios/2__next_static_media_music-player.png" alt="music-player">
+      </div>
+
+      <p
+        class="justify-center lg:justify-start lg:ml-[262px] mt-[44px] text-[20px] leading-9 text-40 flex items-center flex-wrap lg:flex-nowrap">
+        <svg class="mr-3 order-2 lg:order-1 " width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.4 32h19.2c3.533 0 6.4-2.867 6.4-6.4V6.4C32 2.867 29.133 0 25.6 0H6.4A6.402 6.402 0 0 0 0 6.4v19.2C0 29.133 2.867 32 6.4 32Zm8.444-15.644L6.267 5.866v18.356H9.11V13.733l8.489 10.49.089-8.045 7.6 8.044h3.644L14.844 8.667v7.689Z"
+                fill="#717DFF"></path>
+        </svg>
+        <svg class="mr-4  order-3 lg:order-2" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M31.983 7.898c.01.322.013.644.015.965.002.367.002.734.002 1.101v12.11c0 .355 0 .708-.002 1.063-.002.322-.006.643-.015.965-.018.701-.06 1.409-.184 2.102a7.087 7.087 0 0 1-.66 1.998 6.708 6.708 0 0 1-2.937 2.938 7.09 7.09 0 0 1-1.997.658c-.694.125-1.401.167-2.103.185a45.73 45.73 0 0 1-.965.015c-.341.002-.682.002-1.023.002H9.886c-.341 0-.682 0-1.022-.002a45.683 45.683 0 0 1-.966-.015c-.701-.018-1.41-.06-2.102-.185a7.088 7.088 0 0 1-1.998-.658A6.711 6.711 0 0 1 .86 28.202a7.092 7.092 0 0 1-.659-1.998c-.124-.693-.165-1.4-.184-2.102a46.095 46.095 0 0 1-.015-.965C0 22.799 0 22.462 0 22.124V9.89c0-.343 0-.685.002-1.027.002-.322.006-.643.015-.965.019-.701.06-1.409.184-2.102A7.09 7.09 0 0 1 .86 3.798 6.713 6.713 0 0 1 4.28.638 7.313 7.313 0 0 1 5.796.202c.52-.094 1.049-.14 1.576-.166.176-.009.352-.015.527-.02.321-.008.644-.012.966-.014C9.246 0 9.628 0 10.01 0h11.98c.382 0 .765 0 1.147.002.322.002.643.006.965.015.702.019 1.409.06 2.103.185a7.093 7.093 0 0 1 1.997.658 6.714 6.714 0 0 1 2.938 2.938 7.09 7.09 0 0 1 .659 1.998c.124.694.166 1.4.184 2.102ZM25.354 19.75l.002.003c2.75 3.383 2.002 7.01 1.65 6.325-1.437-2.796-4.114-2.082-5.47-1.379a8.962 8.962 0 0 1-.363.205l-.023.013.003-.003c-2.822 1.5-6.61 1.61-10.418-.027a16.76 16.76 0 0 1-7.523-6.45 16.51 16.51 0 0 0 2.798 1.67c4.026 1.885 8.069 1.749 10.93-.002-4.072-3.132-7.472-7.21-10.078-10.516a14.171 14.171 0 0 1-1.34-1.848c3.12 2.857 8.05 6.444 9.82 7.437-3.755-3.968-7.064-8.853-6.909-8.697 5.914 5.96 11.37 9.328 11.37 9.328.206.114.359.204.48.284.112-.287.213-.583.298-.89.944-3.452-.119-7.4-2.523-10.658 5.486 3.294 8.727 9.55 7.399 14.842-.026.102-.055.202-.085.302l-.018.061Z"
+                fill="#717DFF"></path>
+        </svg>
+        <span
+          class="text-center order-1 lg:order-3 w-full lg:w-auto mb-8 lg:mb-0 ">Render your 3D content natively</span>
+      </p>
+    </section>
+
+    <section class="mt-[1000px] text-white ">
+      mnamama
+    </section>
+
+
+  </div>
+</main>
+
+<footer>
+  <div class="app-container"></div>
+</footer>
+
+
+</div>
+
+<script src="script.js" type="module"></script>
+</body>
+
+</html>
