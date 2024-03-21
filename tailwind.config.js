@@ -8,8 +8,14 @@ module.exports = {
     extend: {
       screens: {
         'lg': '1080px',
+        '2xl': '1850px'
+      },
+      colors: {
+
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-border-gradient-radius'),
+  ],
 }
