@@ -51,9 +51,9 @@ body {
   }
 }
 
-  .main-menu-scrolled {
-    background: #1d1e20;
-  }
+.main-menu-scrolled {
+  background: #1d1e20;
+}
 
 
 .get-started-btn-scrolled {
@@ -77,3 +77,57 @@ body {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
 }
+
+//swiper styles
+
+.swiper-button-next:after {
+  font-size: 30px !important;
+  color: white !important;
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+  }
+}
+
+.swiper-button-next {
+  @media (max-width: 768px) {
+    width: 52px !important;
+    height: 52px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 0%, 100%, .03);
+    border: 1px solid hsla(0, 0%, 100%, .05);
+    border-radius: 8px;
+  }
+}
+
+.swiper-button-prev:after {
+  font-size: 30px !important;
+  color: white !important;
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+  }
+}
+
+.swiper-button-prev {
+  @media (max-width: 768px) {
+    width: 52px !important;
+    height: 52px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 0%, 100%, .03);
+    border: 1px solid hsla(0, 0%, 100%, .05);
+    border-radius: 8px;
+  }
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+
+  @media (max-width: 768px) {
+    opacity: 1 !important;
+  }
+}
+
+//--> swiper styles

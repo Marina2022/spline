@@ -28,10 +28,14 @@
   "homepage": "https://github.com/imsus/tailwind-parcel#readme",
   "devDependencies": {
     "@parcel/fs": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
     "@tailwindcss/forms": "^0.4.0-alpha.1",
     "@tailwindcss/typography": "^0.5.0-alpha.2",
     "parcel": "^2.0.0",
     "postcss": "^8.3.9",
     "tailwindcss": "^3.0.0-alpha.1"
+  },
+  "dependencies": {
+    "swiper": "^11.0.7"
   }
 }
