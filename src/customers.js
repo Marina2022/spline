@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
 
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 72,
   centeredSlides: true,
 
   navigation: {
