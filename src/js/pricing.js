@@ -2,10 +2,8 @@ const yearly = document.getElementById('yearly')
 const monthly = document.getElementById('monthly')
 const superTeamMonthly = document.getElementById('super-team-monthly')
 const superTeamAnnually = document.getElementById('super-team-annually')
-
 const superMonthly = document.getElementById('super-monthly')
 const superAnnually = document.getElementById('super-annually')
-
 const faqItems = document.querySelectorAll('.faq-item')
 
 faqItems.forEach(faqItem=>{

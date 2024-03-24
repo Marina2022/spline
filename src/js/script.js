@@ -3,10 +3,7 @@ const getStartedBtn = document.getElementById('get-started-btn')
 const mobileMenuBtn = document.getElementById('mobile-menu-btn')
 const mobileMenu = document.getElementById('mobile-menu')
 const tableHeader = document.getElementById('table-header')
-
 window.addEventListener('scroll', (e) => {
-
-
   if (window.scrollY >= 100) {
     headerMenu.classList.add('main-menu-scrolled')
   } else {
