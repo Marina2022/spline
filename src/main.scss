@@ -11,10 +11,6 @@
     @apply lg:max-w-[1080px] max-xl:px-4 w-full m-auto
   }
 
-  //
-  //.my-slider-container {
-  //  @apply 2xl:max-w-[1080px] px-4 w-full m-auto
-  //}
 }
 
 @layer components {
@@ -296,3 +292,40 @@ body {
   }
 }
 
+
+
+//************ убери потом
+
+.square {
+  position: sticky;
+  background-color: black;
+  top: 100px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: salmon;
+}
+
+.wrapper {
+  margin: 150px 200px 700px 100px;
+  left: 50px;
+  width: 200px;
+  height: 1800px;
+  background-color: yellow;
+}
+
+.square,
+.circle {
+  width: 80px;
+  height: 80px;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+
+.active-price-btn {
+  background: rgba(255,255,255, .1) ;
+}

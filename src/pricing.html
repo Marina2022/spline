@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.scss">
 </head>
-<body class="bg-[#121316] text-['Spline Sans']">
+<body class="bg-[#121316] ">
 
 <!--    Introducing Spline Mirror-->
 <a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap">
@@ -423,17 +423,237 @@
 
 <main>
 
-  <div class="bg-pink-300 h-[500px] w-full">hahaha</div>
 
-  <div class="app-container">
+  <!--  hero - Pricing-->
+  <section class="md:pt-[80px] md:pb-[56px] pt-[34px] pb-[22px] text-white text-center">
+    <div class="app-container">
 
-    <div class="bg-emerald-50 h-[100px] sticky top-[100px]">table header</div>
+      <h1 class="mb-4 md:text-[40px] text-[24px] font-semibold ">Pricing</h1>
+      <p class="md:leading-normal leading-7 md:leading-[36px] text-lg md:text-2xl text-40">Start creating realtime 3D
+        design experiences for free.
+        <br
+          class="hidden lg:inline">
+        Upgrade for extra features and collaboration with your team.</p>
 
-    <div class="bg-blue-200 h-[600px]">table body</div>
+      <div
+        class=" mt-10 mx-auto w-[353px] h-[44px] flex items-center justify-center bg-white/[.03] text-white/[.6] rounded-[32px]">
+        <button id="yearly"
+                class="active-price-btn font-medium w-[54%] rounded-[32px] h-full flex items-center justify-center gap-[6px]">
+          <span class="">Yearly</span>
+          <span class="uppercase text-[#d680ff] text-xs font-semibold rounded-[24px] py-1 px-2 bg-[#915dff]/[.2]">Save up to 25%</span>
+        </button>
+        <button id="monthly" class="font-medium w-[44%] rounded-[32px] h-full  flex items-center justify-center">
+          Monthly
+        </button>
+      </div>
 
-    <div class="bg-orange-200 h-[600px]"> next block</div>
+      <div class="flex gap-4 items-center lg:items-stretch mt-[56px] lg:flex-row flex-col">
 
-  </div>
+        <!--        card 1-->
+        <div
+          class="p-6 rounded-[16px] bg-white/[.03] text-white/[.8] text-sm leading-[20px] lg:w-full w-[353px] flex-col flex min-h-[560px]">
+
+          <h3 class="uppercase text-[20px] text-left">Basic</h3>
+          <p class="my-6 text-[28px] text-left">$0 <span class="text-[20px] text-40">(Free)</span></p>
+          <p class="text-sm mt-6 mb-4 text-white/[.6] text-left">What’s included:</p>
+          <ul class="mb-6">
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Unlimited personal files</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Unlimited file viewers</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>1 team file</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Up to 2 editors per file</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Up to 1 team project</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Access to the Spline Library</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Generate Public URLs</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small.svg" alt="checkmark">
+              <span>Export Public URLs with logo</span>
+            </li>
+
+
+          </ul>
+          <button class="transition-colors duration-200 text-base font-medium mt-6 w-full bg-white/[.03] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-white/[.05]">Start for Free</button>
+        </div>
+
+        <!--        card 2-->
+        <div
+          class="p-6 rounded-[16px] bg-white/[.03] text-white/[.8] text-sm leading-[20px] lg:w-full w-[353px] flex-col flex min-h-[560px]">
+          <h3 class="uppercase text-[20px] text-left flex gap-4 items-center">
+            <div class="bg-[#00a376] flex items-center justify-center rounded-full w-[32px] h-[32px]">
+              <svg width="14" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M.615 11.467 8.178 1.2v7.334h4.537L5.153 18.8v-7.333H.615Z" fill="#fff" stroke="#fff"
+                  stroke-width="1.1" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+            <div>SUPER</div>
+          </h3>
+
+
+          <div id="super-annually">
+            <p class="mt-6 text-[28px] text-left">$9 <span class="text-[20px] text-40">/ month</span></p>
+            <div class="text-xs mt-[6px] text-40 text-left">Billed annually</div>
+          </div>
+
+
+          <div id="super-monthly" class="hidden">
+            <p class="mt-6 text-[28px] text-left">$12 <span class="text-[20px] text-40">/ month</span></p>
+          </div>
+
+
+          <p class="text-sm mt-6 mb-4 text-white/[.6] text-left">Everything on Basic, plus:</p>
+          <ul class="text-left mb-6">
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Create personal folders</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Unlimited editors on personal files</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Create unlimited scenes in files</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Unlock Sound Library</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Unlock Material Library</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Generate textures with AI</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1 items-center">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>AI Style Transfer</span>  <span class="py-[2px] px-[6px] bg-white/[.1] text-white/[.6] uppercase text-[9px] rounded-[4px] leading-[11px] ">EXPERIMENTAL</span>
+            </li>
+
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Import videos, create video layers, and video events</span>
+            </li>
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Export GLTF with material textures</span>
+            </li>
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Export USDZ and STL</span>
+            </li>
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Remove logo from Public URLs</span>
+            </li>
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>Remove logo from Code Exports</span>
+            </li>
+            <li class="mb-[6px] flex gap-1 items-start ">
+              <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
+              <span>App Generation</span>
+            </li>
+
+          </ul>
+          <button class="transition-colors duration-200 text-base font-medium w-full bg-[#00a376] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-[#008761]">Get Super</button>
+        </div>
+
+        <!--        card 3-->
+        <div
+          class="p-6 rounded-[16px] bg-white/[.03] text-white/[.8] text-sm leading-[20px] lg:w-full w-[353px] flex-col flex min-h-[560px]">
+          <h3 class="uppercase text-[20px] text-left flex gap-4 items-center">
+            <div class="bg-[#915eff] flex items-center justify-center rounded-full w-[32px] h-[32px]">
+              <svg width="14" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M.615 11.467 8.178 1.2v7.334h4.537L5.153 18.8v-7.333H.615Z" fill="#fff" stroke="#fff"
+                  stroke-width="1.1" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+            <div>SUPER TEAM</div>
+          </h3>
+
+
+          <div id="super-team-annually">
+            <p class="mt-6 text-[28px] text-left">$12 <span class="text-[20px] text-40"> per team editor/ month</span></p>
+            <div class="text-xs mt-[6px] text-40 text-left">Billed annually</div>
+          </div>
+
+          <div id="super-team-monthly" class="hidden">
+            <p class="mt-6 text-[28px] text-left">$15 <span class="text-[20px] text-40">per team editor/ month</span></p>
+          </div>
+
+
+          <p class="text-sm mt-6 mb-4 text-white/[.6] text-left">Everything on SUPER, plus:</p>
+          <ul class="text-left mb-6">
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-purple.svg" alt="checkmark">
+              <span>Unlimited team files</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-purple.svg" alt="checkmark">
+              <span>Unlimited team folders</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-purple.svg" alt="checkmark">
+              <span>Unlimited team projects</span>
+            </li>
+            <li class="mb-[6px] flex gap-1">
+              <img src="assets/pricing/checkmark-small-purple.svg" alt="checkmark">
+              <span>All editors get SUPER benefits</span>
+            </li>
+
+
+          </ul>
+          <button class="transition-colors duration-200 mt-auto text-base font-medium w-full bg-[#915eff] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] hover:bg-[#7448d4]">Get Super Team</button>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!--  *****************************************************-->
+  <!--  sticky header table - не стирай -->
+
+  <!--  <div class="container text-white ">-->
+  <!--    <div class="wrapper">-->
+  <!--      <div class="square"></div>-->
+  <!--      <div class="circle"></div>-->
+  <!--    </div>-->
+  <!--  </div>-->
 
 </main>
 
@@ -554,6 +774,7 @@
 
   </div>
 </footer>
-<script src="script.js" type="module"></script>
+<script src="js/script.js" type="module"></script>
+<script src="js/pricing.js" type="module"></script>
 </body>
 </html>
