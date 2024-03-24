@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.scss">
 </head>
-<body class="bg-[#121316] ">
+<body class="bg-[#121316]">
 
 <!--    Introducing Spline Mirror-->
 <a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap">
@@ -35,7 +35,7 @@
 </a>
 
 <!--header-->
-<header id="header" class="sticky top-[30px] w-full xl:w-[1080px] m-auto rounded-full relative z-10">
+<header id="header" class="sticky top-[30px] w-full xl:w-[1080px] m-auto rounded-full relative z-20">
   <div class="app-container">
     <!--    header-menu-->
     <div class="main-menu mt-[30px] bg-[#121316] rounded-full z-50">
@@ -499,7 +499,10 @@
 
 
           </ul>
-          <button class="transition-colors duration-200 text-base font-medium mt-6 w-full bg-white/[.03] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-white/[.05]">Start for Free</button>
+          <button
+            class="transition-colors duration-200 text-base font-medium mt-6 w-full bg-white/[.03] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-white/[.05]">
+            Start for Free
+          </button>
         </div>
 
         <!--        card 2-->
@@ -557,7 +560,8 @@
 
             <li class="mb-[6px] flex gap-1 items-center">
               <img src="assets/pricing/checkmark-small-green.svg" alt="checkmark">
-              <span>AI Style Transfer</span>  <span class="py-[2px] px-[6px] bg-white/[.1] text-white/[.6] uppercase text-[9px] rounded-[4px] leading-[11px] ">EXPERIMENTAL</span>
+              <span>AI Style Transfer</span> <span
+              class="py-[2px] px-[6px] bg-white/[.1] text-white/[.6] uppercase text-[9px] rounded-[4px] leading-[11px] ">EXPERIMENTAL</span>
             </li>
 
             <li class="mb-[6px] flex gap-1 items-start ">
@@ -586,7 +590,10 @@
             </li>
 
           </ul>
-          <button class="transition-colors duration-200 text-base font-medium w-full bg-[#00a376] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-[#008761]">Get Super</button>
+          <button
+            class="transition-colors duration-200 text-base font-medium w-full bg-[#00a376] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-[#008761]">
+            Get Super
+          </button>
         </div>
 
         <!--        card 3-->
@@ -605,12 +612,14 @@
 
 
           <div id="super-team-annually">
-            <p class="mt-6 text-[28px] text-left">$12 <span class="text-[20px] text-40"> per team editor/ month</span></p>
+            <p class="mt-6 text-[28px] text-left">$12 <span class="text-[20px] text-40"> per team editor/ month</span>
+            </p>
             <div class="text-xs mt-[6px] text-40 text-left">Billed annually</div>
           </div>
 
           <div id="super-team-monthly" class="hidden">
-            <p class="mt-6 text-[28px] text-left">$15 <span class="text-[20px] text-40">per team editor/ month</span></p>
+            <p class="mt-6 text-[28px] text-left">$15 <span class="text-[20px] text-40">per team editor/ month</span>
+            </p>
           </div>
 
 
@@ -635,7 +644,10 @@
 
 
           </ul>
-          <button class="transition-colors duration-200 mt-auto text-base font-medium w-full bg-[#915eff] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] hover:bg-[#7448d4]">Get Super Team</button>
+          <button
+            class="transition-colors duration-200 mt-auto text-base font-medium w-full bg-[#915eff] h-[50px] flex items-center justify-center rounded-[12px] border border-white/[.05] hover:bg-[#7448d4]">
+            Get Super Team
+          </button>
         </div>
 
       </div>
@@ -645,15 +657,579 @@
   </section>
 
 
-  <!--  *****************************************************-->
-  <!--  sticky header table - не стирай -->
+  <section class="md:pt-[80px] md:pb-[56px] pt-[34px] pb-[22px] text-white max-md:hidden">
+    <div class="app-container">
 
-  <!--  <div class="container text-white ">-->
-  <!--    <div class="wrapper">-->
-  <!--      <div class="square"></div>-->
-  <!--      <div class="circle"></div>-->
-  <!--    </div>-->
-  <!--  </div>-->
+      <h1 class="mb-4 md:text-[40px] text-[24px] font-semibold text-white/[.8] text-center ">Compare plans &
+        features</h1>
+      <p class="md:leading-normal leading-7 md:leading-[36px] text-lg md:text-2xl text-40 text-center">Overview of
+        what’s included in our different plans.</p>
+
+
+      <div class="wrapper ">
+
+        <!--        table header-->
+        <div class="table-header w-[1080px] max-w-full bg-[#121316] z-10">
+          <div class="flex w-full text-center">
+            <div class="w-full px-[30px]"></div>
+
+            <div class=" px-[30px] pt-[20px] w-full flex flex-col">
+              <h3 class="font-semibold uppercase text-[20px] mb-2">Basic</h3>
+              <p class="mb-4">$0 <span class="text-40">free</span></p>
+              <button
+                class="mt-auto transition-colors duration-200 text-base font-medium mt-6 w-full bg-white/[.03] h-[54px] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-white/[.05]">
+                Start for Free
+              </button>
+            </div>
+
+            <div class=" px-[30px] pt-[20px] w-full flex flex-col bg-white/[.05] rounded-t-[16px]">
+              <h3 class="font-semibold uppercase text-[20px] mb-2">Super</h3>
+              <p class="mb-4"> $9 / mo <span class="text-40">billed yearly or $12 billed monthly</span></p>
+              <button
+                class="mt-auto h-[54px] transition-colors duration-200 text-base font-medium w-full bg-[#00a376] flex items-center justify-center rounded-[12px] border border-white/[.05] mt-auto hover:bg-[#008761]">
+                Get Super
+              </button>
+            </div>
+
+            <div class=" px-[30px] pt-[20px] w-full flex flex-col ">
+              <h3 class="font-semibold uppercase text-[20px] mb-2">Super team</h3>
+              <p class="mb-4"> $12 / mo <span class="text-40">billed yearly or $15 billed monthly</span></p>
+              <button
+                class="mt-auto h-[54px] transition-colors duration-200 mt-auto text-base font-medium w-full bg-[#915eff] flex items-center justify-center rounded-[12px] border border-white/[.05] hover:bg-[#7448d4]">
+                Get Super Team
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!--        table body-->
+        <div>
+          <div class="text-base text-40 mb-6">
+
+            <!--            subheader-->
+            <div
+              class="subheader h-[47px] sticky top-[276px] z-0 flex items-center border-b border-white/[.05] bg-[#121316]">
+              <span class="w-full text-white uppercase ">USAGE</span>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Unlimited personal files
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Generate Public URLs
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Access to the Spline Library
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Remove logo from Exports
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div
+                class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start gap-1">
+                <span>App Generation</span>
+                <span
+                  class="bg-[#7448d4] rounded-[4px] py-[2px] px-[6px] text-white text-[9px] h-[15px] flex items-center font-semibold">BETA</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-base text-40 mb-6">
+
+            <!--            subheader-->
+            <div
+              class="subheader h-[47px] sticky top-[276px] z-0 flex items-center border-b border-white/[.05] bg-[#121316]">
+              <span class="w-full text-white uppercase ">CREATION</span>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Multi-Scenes
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-white">2</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">Unlimited</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Generate textures with AI
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div
+                class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start gap-1">
+                <span>AI Style Transfer</span>
+                <span
+                  class="bg-[#7448d4] rounded-[4px] py-[2px] px-[6px] text-white text-[9px] h-[15px] flex items-center font-semibold">EXPERIMENTAL</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Video materials and events
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Export for iOS AR (USDZ)
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Export for 3D Printing (STL)
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Export GLTF with materials
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Unlock Sound Library
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Unlock Material Library
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m4 4 9 9M4 13l9-9"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-base text-40 mb-6">
+
+            <!--            subheader-->
+            <div
+              class="subheader h-[47px] sticky top-[276px] z-0 flex items-center border-b border-white/[.05] bg-[#121316]">
+              <span class="w-full text-white uppercase ">COLLABORATION</span>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Unlimited file viewers
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#38E2B3" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m13 4.5-7 7-3-3" stroke="#D680FF" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Personal Folders
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 9 9M4 13l9-9"></path></g></svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">Unlimited</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+           <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Team Projects
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-white">1</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">1</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Team Files
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-white">1</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">1</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Editors per personal file
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-white">2</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">Unlimited</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Editors per team
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-white">2</span>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#38e2b3]">2</span>
+
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+            <!--            table row-->
+            <div class=" w-full h-[50px] flex items-center gap-[30px] flex">
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px] !justify-start">
+                Team Folders
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 9 9M4 13l9-9"></path></g></svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 9 9M4 13l9-9"></path></g></svg>
+              </div>
+              <div class="w-full flex items-center justify-center border-b border-white/[.05] h-[50px]">
+                <span class="text-[#d680ff]">Unlimited</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="h-[500px] bg-emerald-50">
+    FAQ
+  </section>
 
 </main>
 

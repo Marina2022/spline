@@ -293,39 +293,47 @@ body {
 }
 
 
-
 //************ убери потом
 
-.square {
+.table-header {
   position: sticky;
-  background-color: black;
-  top: 100px;
-}
-
-.circle {
-  border-radius: 50%;
-  background-color: salmon;
+  top: 0px;
+  padding-top: 100px;
 }
 
 .wrapper {
-  margin: 150px 200px 700px 100px;
   left: 50px;
-  width: 200px;
-  height: 1800px;
-  background-color: yellow;
-}
-
-.square,
-.circle {
-  width: 80px;
-  height: 80px;
-}
-
-body {
-  background-color: gainsboro;
+  //background-color: yellow;
 }
 
 
 .active-price-btn {
-  background: rgba(255,255,255, .1) ;
+  background: rgba(255, 255, 255, .1);
+}
+
+.pricing-table-cell {
+  width: 100%;
+  //position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: calc(100% - 60px);
+    bottom: 0;
+    background: rgba(255, 255, 255, .05);
+
+  }
+}
+
+.subheader {
+  @media (max-width: 865px) {
+    top: 288px;
+  }
 }
