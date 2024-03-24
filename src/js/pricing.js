@@ -6,8 +6,15 @@ const superTeamAnnually = document.getElementById('super-team-annually')
 const superMonthly = document.getElementById('super-monthly')
 const superAnnually = document.getElementById('super-annually')
 
+const faqItems = document.querySelectorAll('.faq-item')
 
-console.log('hello')
+faqItems.forEach(faqItem=>{
+  faqItem.addEventListener('click', (e)=>{
+    e.target.closest('.faq-item').querySelector('.minus').classList.toggle('hidden')
+    e.target.closest('.faq-item').querySelector('.plus').classList.toggle('hidden')
+    e.target.closest('.faq-item').querySelector('.text').classList.toggle('hidden')
+  })
+})
 
 yearly.addEventListener('click', ()=>{
   monthly.classList.remove('active-price-btn')
@@ -18,8 +25,6 @@ yearly.addEventListener('click', ()=>{
 
   superMonthly.classList.add('hidden')
   superAnnually.classList.remove('hidden')
-
-
 })
 
 monthly.addEventListener('click', ()=>{
@@ -32,5 +37,6 @@ monthly.addEventListener('click', ()=>{
 
   superMonthly.classList.remove('hidden')
   superAnnually.classList.add('hidden')
-
 })
+
+
