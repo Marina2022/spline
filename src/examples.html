@@ -19,7 +19,7 @@
 <body class="bg-[#121316]">
 
 <!--    Introducing Spline Mirror-->
-<a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap">
+<a href="#" class="flex md:gap-3 items-center justify-center md:h-[55px] mt-4 md:mt-0 max-md:flex-wrap border-b border-[#915eff1a]">
   <div class="max-md:w-full flex gap-3 justify-center items-center">
     <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -43,9 +43,9 @@
 <header id="header" class="sticky top-[30px] w-full xl:w-[1080px] m-auto rounded-full relative z-10">
   <div class="app-container">
     <!--    header-menu-->
-    <div class="main-menu mt-[30px] bg-[#121316] rounded-full z-50">
+    <div class="main-menu mt-[30px] bg-[#121316] rounded-full z-50 px-[7px]">
       <nav>
-        <ul class="header-menu flex items-center justify-between gap-2 font-medium text-40 justify-center ">
+        <ul class="header-menu flex items-center justify-between gap-[2px] text-40 justify-center ">
           <li class="py-[10px] px-[8px] shrink-0">
             <a href="/">
               <img loading="lazy" src="assets/header/logo.png" alt="logo" width="32" height="32">
@@ -58,7 +58,7 @@
           </li>
 
           <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300 relative">
-            <button class="flex gap-2 items-center active-menu-item">
+            <button class="flex gap-2 items-center">
                 <span class="">
                 iOS
               </span>
@@ -292,7 +292,7 @@
           </li>
 
           <li class="max-lg:hidden p-[10px] hover:text-100 transition-colors duration-300">
-            <a class="" href="examples.html">
+            <a class="active-menu-item" href="examples.html">
               Examples
             </a>
           </li>
@@ -304,13 +304,13 @@
           </li>
 
           <li
-            class="max-lg:hidden py-[8px] px-[14px] hover:text-100 transition-colors duration-300 bg-[rgba(255,255,255,.05)] rounded-3xl border border-[rgba(255,255,255,.05)]">
+            class="ml-2 max-lg:hidden py-[8px] px-[14px] hover:text-100 transition-colors duration-300 bg-[rgba(255,255,255,.05)] rounded-3xl border border-[rgba(255,255,255,.05)]">
             <a class="" href="login">
               Log&nbsp;in
             </a>
           </li>
           <li id="get-started-btn"
-              class="max-lg:hidden mr-2 transition duration-500 p-[10px] text-white font-semibold bg-[rgba(255,255,255,.2)] rounded-full py-2 px-4">
+              class="max-lg:hidden mr-2 transition duration-500 p-[10px] text-white font-medium bg-[rgba(255,255,255,.2)] rounded-full py-2 px-4">
             <a href="/">
               Get&nbsp;Started
             </a>
@@ -444,7 +444,7 @@
         </svg>
       </div>
     </div>
-    <h1 class="md:mt-[186px] mt-[96px] mb-4 md:text-[40px] text-[24px] ">Get inspired by 3D designs made with
+    <h1 class="md:mt-[186px] mt-[96px] mb-4 md:text-[40px] text-[24px] font-medium">Get inspired by 3D designs made with
       Spline</h1>
     <p class="md:leading-normal leading-7 md:leading-[36px] text-lg md:text-2xl text-40">Duplicate scenes and learn how
       to achieve
@@ -475,7 +475,7 @@
                    src="assets/examples/ex1.png"
                    alt="example 1">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">3D Text - Blue</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">3D Text - Blue</h4>
           </a>
         </li>
 
@@ -486,7 +486,7 @@
                    src="assets/examples/ex2.png"
                    alt="example 2">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Mini House - Conditional Logic</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Mini House - Conditional Logic</h4>
           </a>
         </li>
 
@@ -497,7 +497,7 @@
                    src="assets/examples/ex3.png"
                    alt="example 3">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Purple 3D Icons</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Purple 3D Icons</h4>
           </a>
         </li>
 
@@ -508,7 +508,7 @@
                    src="assets/examples/ex4.png"
                    alt="example 4">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Kids Playground Physics</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Kids Playground Physics</h4>
           </a>
         </li>
 
@@ -519,7 +519,7 @@
                    src="assets/examples/ex5.png"
                    alt="example 5">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Car Camping - Physics</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Car Camping - Physics</h4>
           </a>
         </li>
 
@@ -530,7 +530,7 @@
                    src="assets/examples/ex6.png"
                    alt="example 6">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Component Icecream</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Component Icecream</h4>
           </a>
         </li>
 
@@ -541,7 +541,7 @@
                    src="assets/examples/ex7.png"
                    alt="example 7">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Iphone 14 Pro</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Iphone 14 Pro</h4>
           </a>
         </li>
 
@@ -552,7 +552,7 @@
                    src="assets/examples/ex8.png"
                    alt="example 8">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Cloner Cube Binary</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Cloner Cube Binary</h4>
           </a>
         </li>
 
@@ -563,7 +563,7 @@
                    src="assets/examples/ex9.png"
                    alt="example 9">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Cloner Cube Simple</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Cloner Cube Simple</h4>
           </a>
         </li>
 
@@ -574,7 +574,7 @@
                    src="assets/examples/ex10.png"
                    alt="example 10">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Cloner City</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Cloner City</h4>
           </a>
         </li>
 
@@ -585,7 +585,7 @@
                    src="assets/examples/ex11.png"
                    alt="example 11">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Friends Kawai</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Friends Kawai</h4>
           </a>
         </li>
 
@@ -596,7 +596,7 @@
                    src="assets/examples/ex12.png"
                    alt="example 12">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">BMO - Adventure Time</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">BMO - Adventure Time</h4>
           </a>
         </li>
 
@@ -607,7 +607,7 @@
                    src="assets/examples/ex13.png"
                    alt="example 13">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Polaroid Go</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Polaroid Go</h4>
           </a>
         </li>
         <li class="">
@@ -617,7 +617,7 @@
                    src="assets/examples/ex14.png"
                    alt="example 14">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Room - Relaxing</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Room - Relaxing</h4>
           </a>
         </li>
 
@@ -628,7 +628,7 @@
                    src="assets/examples/ex15.png"
                    alt="example 15">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Purple Icons Set 8</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Purple Icons Set 8</h4>
           </a>
         </li>
 
@@ -639,7 +639,7 @@
                    src="assets/examples/ex16.png"
                    alt="example 16">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Mini Room - Music</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Mini Room - Music</h4>
           </a>
         </li>
 
@@ -650,7 +650,7 @@
                    src="assets/examples/ex17.png"
                    alt="example 17">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Hands 3D UI</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Hands 3D UI</h4>
           </a>
         </li>
 
@@ -661,7 +661,7 @@
                    src="assets/examples/ex18.png"
                    alt="example 18">
             </div>
-            <h4 class="my-3 text-base text-white/[.8]">Component UI</h4>
+            <h4 class="my-3 text-sm text-white/[.8] font-medium">Component UI</h4>
           </a>
         </li>
 
@@ -703,11 +703,11 @@
     </div>
   </section>
 
-  <section class="mt-[82px] md:mt-[0px] mb-[150px] md:mb-[280px] text-white text-center">
+  <section class="mt-[82px] md:mt-[0px] mb-[150px] md:mb-[316px] text-white text-center">
     <div class="app-container">
 
     </div>
-    <h2 class="md:mt-[0] mt-[0px] mb-4 md:text-[40px] text-[24px] text-white/[.8] ">Find more scenes on the Spline App</h2>
+    <h2 class="md:mt-[0] mt-[0px] mb-4 md:text-[40px] text-[24px] text-white/[.8] font-medium">Find more scenes on the Spline App</h2>
     <p class="md:leading-normal leading-7 md:leading-[36px] text-lg md:text-2xl text-40">Continue exploring the Spline Library by creating an account
       <br
         class="hidden lg:inline">
