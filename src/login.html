@@ -14,13 +14,13 @@
 <body class="bg-[#121316]">
 
 <main>
-  <div class="flex items-center justify-center w-full h-screen">
-    <div class="translate-y-[-7vh] w-[350px] max-w-[92%] text-center text-white ">
+  <div class="flex items-center justify-center w-full h-screen tracking-[.3px] font-normal">
+    <div class="translate-y-[-7vh] w-[300px] max-w-[92%] text-center text-white ">
 
       <img class="mx-auto w-[80px] h-[80px] mb-3" src="assets/logo-login.png" alt="logo">
-      <h1 class="font-semibold text-white/[.8] leading-7 text-2xl">Welcome to Spline</h1>
-      <p class="text-sm mt-2 mb-8 leading-[24px] text-white/[.6]">Log In or Register with your email.</p>
-      <button class="flex gap-2 text-sm items-center bg-[#4581ff] hover:bg-[#217ce5] h-[40px] w-full rounded-[8px] justify-center">
+      <h1 class="text-white/[.8] leading-7 text-2xl">Welcome to Spline</h1>
+      <p class="font-thin text-sm mt-2 mb-8 leading-[24px] text-white/[.6]">Log In or Register with your email.</p>
+      <button class="flex gap-2 text-sm items-center bg-[#4581ff] hover:bg-[#217ce5] h-[40px] w-full rounded-[8px] justify-center tracking-[.3px]">
         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M14.5 8.14032C14.5 11.5637 12.1172 14 8.59836 14C5.22459 14 2.5 11.3194 2.5 8C2.5 4.68065 5.22459 2 8.59836 2C10.241 2 11.623 2.59274 12.6877 3.57016L11.0279 5.14032C8.85656 3.07903 4.81885 4.62742 4.81885 8C4.81885 10.0927 6.51803 11.7887 8.59836 11.7887C11.0131 11.7887 11.918 10.0855 12.0607 9.20242H8.59836V7.13871H14.4041C14.4607 7.44597 14.5 7.74113 14.5 8.14032Z"
@@ -32,10 +32,10 @@
       <hr class="h-[1px] bg-white/[.05] my-6 mx-4 border-0">
       <form action="#">
         <input
-          class="text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[40px] w-full py-1 rounded-[8px] bg-white/[.05] text-center"
-          type="email" name="email" placeholder="Email" required>
-        <button
-          class="border border-white/[.05] text-white/[.6] mt-2 px-4 text-sm h-[40px] w-full py-1 rounded-[8px] bg-white/[.03] text-center"
+          class="text-white/[.6] focus:outline focus:border-0 placeholder-white/[.4] focus:outline-[#4581ff] px-4 text-sm h-[40px] w-full py-1 rounded-[8px] bg-white/[.05] text-center"
+          type="email" name="email" placeholder="Email"  required>
+        <button id="login-continue-btn"
+          class="tracking-[.3px] border border-white/[.05] text-white/[.6] mt-2 px-4 text-sm h-[40px] w-full py-1 rounded-[8px] bg-white/[.03] text-center"
           type="submit">Continue
         </button>
       </form>
@@ -43,5 +43,6 @@
   </div>
 </main>
 
+<script src="js/login.js" type="module"></script>
 </body>
 </html>

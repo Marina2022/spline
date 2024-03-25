@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spline Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.scss">
+</head>
+<body class="bg-[#121316]">
+
+<main>
+  <div class="flex items-center justify-center w-full h-screen tracking-[.3px]">
+    <div class="translate-y-[-7vh] w-[500px] max-w-[92%] text-center text-white ">
+
+      <img class="mx-auto w-[80px] h-[80px] mb-3" src="assets/logo-login.png" alt="logo">
+      <h1 class="text-white/[.8] leading-7 text-2xl">Check your email</h1>
+      <p class="text-sm mt-2 leading-[24px] text-40 font-thin">We sent you a sign-in code to: <span class="text-white/[.6] font-normal">text@test.com</span>
+      </p>
+      <p class="text-40 text-sm mb-8 leading-[24px] font-thin">Paste (or type) it below to continue.</p>
+      <div class="flex h-[48px] gap-2 m-auto justify-center mb-[42px]">
+        <input autofocus
+               class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+        <input
+          class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+        <input
+          class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+        <input
+          class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+        <input
+          class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+        <input
+          class="code-input__item text-white/[.6] focus:outline focus:border-0  focus:outline-[#4581ff] px-4 text-sm h-[48px] w-[40px] py-1 rounded-[8px] bg-white/[.05] text-center"
+          required>
+      </div>
+
+      <button class="hover:bg-white/[.05] hover:text-white/[.6] font-thin rounded-[8px] w-[107px] h-[32px] flex items-center justify-center mx-auto bg-white/[.03] text-40 text-sm tracking-[0.3px]">Resend code</button>
+    </div>
+  </div>
+</main>
+
+<script src="js/login.js" type="module"></script>
+</body>
+</html>
